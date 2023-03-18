@@ -1,106 +1,205 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    
-    <meta charset="UTF-8">
-    <title>Verbos Irregulares</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Irregular verbs</title>
+  </head>
+  <body>
     <h1>IRREGULAR VERBS LIST</h1>
     <table>
-        <thead>
-            <tr>
-                <th>INFINITIVE</th>
-                <th>PAST SIMPLE</th>
-                <th>MEANING</th>
-            </tr>
-            <br/>
-        </thead>
-        <tbody>
-            <tr>
-                <td id="tobe-infi">TO BE</td>
-                <td><input id="to-be-past-input" type="text" /></td>
-                <td><input id="to-be-meaning-input" type="text" /></td>
-                <td><button id="to-be-check" class="check-btn">RESOLVE</button></td>
-                <td id="tobe-result" class="result"></td>
-            </tr>
-            <tr>
-                <td id="buy-infi">BUY</td>
-                <td><input id="buy-past-input" type="text" /></td>
-                <td><input id="buy-meaning-input" type="text" /></td>
-                <td><button id="buy-check" class="check-btn">RESOLVE</button></td>
-                <td id="buy-result" class="result"></td>
-            </tr>
-            <tr>
-                <td id="come-infi">COME</td>
-                <td><input id="come-past-input" type="text" /></td>
-                <td><input id="come-meaning-input" type="text" /></td>
-                <td><button id="come-check" class="check-btn">RESOLVE</button></td>
-                <td id="come-result" class="result"></td>
-            </tr>
-             <tr>
-                 <td id="do-infi">DO</td>
-                 <td><input id="do-past-input" type="text" /></td>
-                 <td><input id="do-meaning-input" type="text" /></td>
-                 <td><button id="do-check" class="check-btn">RESOLVE</button></td>
-                 <td id="come-result" class="result"></td>
-             </tr>
-              <tr>
-                  <td id="draw-infi">DRAW</td>
-                  <td><input id="draw-past-input" type="text" /></td>
-                  <td><input id="draw-meaning-input" type="text" /></td>
-                  <td><button id="draw-check" class="check-btn">RESOLVE</button></td>
-                  <td id="come-result" class="result"></td>
-              </tr>
-                 <tr>
-                     <td id="draw-infi">DRINK</td>
-                     <td><input id="drink-past-input" type="text" /></td>
-                     <td><input id="drink-meaning-input" type="text" /></td>
-                     <td><button id="drink-check" class="check-btn">RESOLVE</button></td>
-                     <td id="come-result" class="result"></td>
-                 </tr>
-                  <tr>
-                      <td id="eat-infi">EAT</td>
-                      <td><input id="eat-past-input" type="text" /></td>
-                      <td><input id="eat-meaning-input" type="text" /></td>
-                      <td><button id="eat-check" class="check-btn">RESOLVE</button></td>
-                      <td id="come-result" class="result"></td>
-                  </tr>
-                    <tr>
-                        <td id="fall-infi">FALL</td>
-                        <td><input id="fall-past-input" type="text" /></td>
-                        <td><input id="fall-meaning-input" type="text" /></td>
-                        <td><button id="fall-check" class="check-btn">RESOLVE</button></td>
-                        <td id="come-result" class="result"></td>
-                    </tr>
-                    <tr>
-                        <td id="fell-infi">FELL</td>
-                        <td><input id="fell-past-input" type="text" /></td>
-                        <td><input id="fell-meaning-input" type="text" /></td>
-                        <td><button id="fell-check" class="check-btn">RESOLVE</button></td>
-                        <td id="come-result" class="result"></td>
-                    </tr>
-                      <tr>
-                          <td id="get-infi">GET</td>
-                          <td><input id="get-past-input" type="text" /></td>
-                          <td><input id="get-meaning-input" type="text" /></td>
-                          <td><button id="get-check" class="check-btn">RESOLVE</button></td>
-                          <td id="come-result" class="result"></td>
-                      </tr>
-        </tbody>
-
-        
- 
+      <thead>
+        <tr>
+          <th>INFINITIVE</th>
+          <th>PAST SIMPLE</th>
+          <th>MEANING</th>
+        </tr>
+        <br />
+      </thead>
+      <tbody>
+        <tr>
+          <td id="tobe-infi">TO BE</td>
+          <td><input id="to-be-past-input" type="text" /></td>
+          <td><input id="to-be-meaning-input" type="text" /></td>
+          <td><button id="to-be-check" class="check-btn">RESOLVE</button></td>
+          <td id="tobe-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="buy-infi">BUY</td>
+          <td><input id="buy-past-input" type="text" /></td>
+          <td><input id="buy-meaning-input" type="text" /></td>
+          <td><button id="buy-check" class="check-btn">RESOLVE</button></td>
+          <td id="buy-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="come-infi">COME</td>
+          <td><input id="come-past-input" type="text" /></td>
+          <td><input id="come-meaning-input" type="text" /></td>
+          <td><button id="come-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="do-infi">DO</td>
+          <td><input id="do-past-input" type="text" /></td>
+          <td><input id="do-meaning-input" type="text" /></td>
+          <td><button id="do-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="draw-infi">DRAW</td>
+          <td><input id="draw-past-input" type="text" /></td>
+          <td><input id="draw-meaning-input" type="text" /></td>
+          <td><button id="draw-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="draw-infi">DRINK</td>
+          <td><input id="drink-past-input" type="text" /></td>
+          <td><input id="drink-meaning-input" type="text" /></td>
+          <td><button id="drink-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="eat-infi">EAT</td>
+          <td><input id="eat-past-input" type="text" /></td>
+          <td><input id="eat-meaning-input" type="text" /></td>
+          <td><button id="eat-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="fall-infi">FALL</td>
+          <td><input id="fall-past-input" type="text" /></td>
+          <td><input id="fall-meaning-input" type="text" /></td>
+          <td><button id="fall-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="feel-infi">FEEL</td>
+          <td><input id="feel-past-input" type="text" /></td>
+          <td><input id="feel-meaning-input" type="text" /></td>
+          <td><button id="feel-check" class="check-btn">RESOLVE</button></td>
+          <td id="feel-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="get-infi">GET</td>
+          <td><input id="get-past-input" type="text" /></td>
+          <td><input id="get-meaning-input" type="text" /></td>
+          <td><button id="get-check" class="check-btn">RESOLVE</button></td>
+          <td id="come-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="give-infi">GIVE</td>
+          <td><input id="give-past-input" type="text" /></td>
+          <td><input id="give-meaning-input" type="text" /></td>
+          <td><button id="give-check" class="check-btn">RESOLVE</button></td>
+          <td id="give-result" class="result"></td>
+        </tr>
+        <tr>
+          <td id="go-infi">GO</td>
+          <td><input id="go-past-input" type="text" /></td>
+          <td><input id="go-meaning-input" type="text" /></td>
+          <td><button id="go-check" class="check-btn">RESOLVE</button></td>
+          <td id="go-result" class="result"></td>
+        </tr>
+        <tr>
+            <td id="have-infi">HAVE</td>
+            <td><input id="have-past-input" type="text" /></td>
+            <td><input id="have-meaning-input" type="text" /></td>
+            <td><button id="have-check" class="check-btn">RESOLVE</button></td>
+            <td id="have-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="hear-infi">HEAR</td>
+            <td><input id="hear-past-input" type="text" /></td>
+            <td><input id="hear-meaning-input" type="text" /></td>
+            <td><button id="hear-check" class="check-btn">RESOLVE</button></td>
+            <td id="hear-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="know-infi">KNOW</td>
+            <td><input id="know-past-input" type="text" /></td>
+            <td><input id="know-meaning-input" type="text" /></td>
+            <td><button id="know-check" class="check-btn">RESOLVE</button></td>
+            <td id="know-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="learn-infi">LEARN</td>
+            <td><input id="learn-past-input" type="text" /></td>
+            <td><input id="learn-meaning-input" type="text" /></td>
+            <td><button id="learn-check" class="check-btn">RESOLVE</button></td>
+            <td id="learn-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="leave-infi">LEAVE</td>
+            <td><input id="leave-past-input" type="text" /></td>
+            <td><input id="leave-meaning-input" type="text" /></td>
+            <td><button id="leave-check" class="check-btn">RESOLVE</button></td>
+            <td id="leave-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="lose-infi">LOSE</td>
+            <td><input id="lose-past-input" type="text" /></td>
+            <td><input id="lose-meaning-input" type="text" /></td>
+            <td><button id="lose-check" class="check-btn">RESOLVE</button></td>
+            <td id="lose-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="make-infi">MAKE</td>
+            <td><input id="make-past-input" type="text" /></td>
+            <td><input id="make-meaning-input" type="text" /></td>
+            <td><button id="make-check" class="check-btn">RESOLVE</button></td>
+            <td id="make-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="read-infi">READ</td>
+            <td><input id="read-past-input" type="text" /></td>
+            <td><input id="read-meaning-input" type="text" /></td>
+            <td><button id="read-check" class="check-btn">RESOLVE</button></td>
+            <td id="read-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="run-infi">RUN</td>
+            <td><input id="run-past-input" type="text" /></td>
+            <td><input id="run-meaning-input" type="text" /></td>
+            <td><button id="run-check" class="check-btn">RESOLVE</button></td>
+            <td id="run-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="see-infi">SEE</td>
+            <td><input id="see-past-input" type="text" /></td>
+            <td><input id="see-meaning-input" type="text" /></td>
+            <td><button id="see-check" class="check-btn">RESOLVE</button></td>
+            <td id="see-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="sit-infi">SIT</td>
+            <td><input id="sit-past-input" type="text" /></td>
+            <td><input id="sit-meaning-input" type="text" /></td>
+            <td><button id="sit-check" class="check-btn">RESOLVE</button></td>
+            <td id="sit-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="steal-infi">STEAL</td>
+            <td><input id="steal-past-input" type="text" /></td>
+            <td><input id="steal-meaning-input" type="text" /></td>
+            <td><button id="steal-check" class="check-btn">RESOLVE</button></td>
+            <td id="steal-result" class="result"></td>
+          </tr>
+          <tr>
+            <td id="swim-infi">SWIM</td>
+            <td><input id="swim-past-input" type="text" /></td>
+            <td><input id="swim-meaning-input" type="text" /></td>
+            <td><button id="swim-check" class="check-btn">RESOLVE</button></td>
+            <td id="swim-result" class="result"></td>
+          </tr>
+      </tbody>
     </table>
-   
-   <button id="reset-btn">RELOAD</button>
 
-    <script src="script.js"></script>
-    <script src="verbs.js"></script>
-</body>
+    <button id="reset-btn">RELOAD</button>
 
+    <script src="javascript.js"></script>
+  </body>
 </html>
 
