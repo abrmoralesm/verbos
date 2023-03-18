@@ -39,15 +39,22 @@ button {
   font-family: "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
 }
 
-.correct,
+.correct {
+  font-size: 1.3em;
+  margin-left: 20px;
+} 
 .incorrect {
-  font-size: 2em;
+  font-size: 1em;
   margin-left: 20px;
   
 }
 .parpadeo {
   text-shadow: 2px 2px 4px red;
   animation: parpadear 1s infinite;
+}
+
+.respuesta {
+  border: 2px solid purple;
 }
 
 .result {
@@ -71,3 +78,5 @@ button {
   }
   
 }
+
+
